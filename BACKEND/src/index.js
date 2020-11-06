@@ -11,6 +11,14 @@ const app = express();
  * DELETE: Deletar uma informação no back-end 
  */
 
+ /**
+  * Tipos de parametros:
+  * 
+  * Query Params: Filtros e paginação
+  * Route Params: 
+  * Request Body: 
+  * 
+  */
 app.get('/projects', (request, response) => {
     return response.json([
         'Projeto 1', 
